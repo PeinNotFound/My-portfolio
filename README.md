@@ -1,24 +1,28 @@
-# Senior Frontend Engineer Portfolio
+# Ahmed Hmimida - Portfolio
 
-A modern, professional portfolio website for a Senior Frontend Engineer with 8+ years of experience. Built with React and inspired by modern portfolio designs.
+A modern, professional portfolio website showcasing the skills, experience, and projects of Ahmed Hmimida, a Full Stack Developer, Backend Engineer, and Team Leader. Built with React, Vite, and Framer Motion for smooth, dynamic interactions.
 
-## Features
+## 🌟 Live Demo
 
-- 🎨 Modern, responsive design with smooth animations
-- 📱 Fully responsive for all devices
-- ⚡ Built with React and Vite for fast performance
-- 🎯 Sections: Hero, About, Skills, Experience, Projects, Contact
-- 🌈 Beautiful gradient effects and modern UI
-- ✨ Smooth scrolling navigation
+[View Live Portfolio](https://PeinNotFound.github.io/My-portfolio/)
 
-## Tech Stack
+## ✨ Key Features
 
-- **React** - UI library
-- **Vite** - Build tool and dev server
-- **CSS3** - Styling with modern features
-- **Inter Font** - Google Fonts for typography
+- **Dynamic Hero Section**: Interactive, animated introduction detailing roles and key statistics.
+- **Experience Timeline**: A fully responsive chronological map of professional internships, freelance work, education, and certifications.
+- **Interactive Project Showcase**: Complex project cards featuring custom-built React carousels that dynamically load assets.
+- **Image Lightbox System**: Seamless image expansion modals built into the project gallery for high-resolution viewing.
+- **Comprehensive Skills Matrix**: Categorized technological proficiencies including Mobile Development (Flutter, Kotlin) and Backend Engineering (Laravel, Python, Express.js).
+- **Automated Deployment**: Fully configured GitHub Actions CI/CD pipeline targeting GitHub Pages.
 
-## Getting Started
+## 🛠 Tech Stack
+
+- **Frontend**: React (v18), Vite, CSS3
+- **Animations**: Framer Motion
+- **Icons**: React Icons
+- **Deployment**: GitHub Actions & GitHub Pages
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -27,8 +31,10 @@ A modern, professional portfolio website for a Senior Frontend Engineer with 8+ 
 
 ### Installation
 
-1. Install dependencies:
+1. Clone the repository and install dependencies:
 ```bash
+git clone https://github.com/PeinNotFound/My-portfolio.git
+cd My-portfolio
 npm install
 ```
 
@@ -37,7 +43,7 @@ npm install
 npm run dev
 ```
 
-3. Open your browser and navigate to `http://localhost:5173`
+3. Open your browser and navigate to `http://localhost:5173/My-portfolio/`
 
 ### Build for Production
 
@@ -45,60 +51,32 @@ npm run dev
 npm run build
 ```
 
-The built files will be in the `dist` directory.
+The built files will be output to the `dist` directory.
 
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
+├── assets/                 # Project images and global assets (glob imported)
 ├── components/
-│   ├── Navigation.jsx      # Navigation bar
-│   ├── Hero.jsx            # Hero section
-│   ├── About.jsx           # About section
-│   ├── Skills.jsx          # Skills section
-│   ├── Experience.jsx     # Experience section
-│   ├── Projects.jsx        # Projects section
-│   └── Contact.jsx         # Contact section
-├── App.jsx                 # Main app component
-├── main.jsx                # Entry point
-└── index.css               # Global styles
+│   ├── Navigation.jsx      # Sticky responsive navigation bar
+│   ├── Hero.jsx            # Animated hero section
+│   ├── About.jsx           # Profile and biography
+│   ├── Skills.jsx          # Sortable tech stack matrix
+│   ├── Experience.jsx      # Resume and timeline section
+│   ├── Projects.jsx        # Project carousels and lightbox modal
+│   └── Contact.jsx         # Footer and social links
+├── App.jsx                 # Main application structure
+├── main.jsx                # React DOM render entry
+└── index.css               # CSS variables and global theme
 ```
 
-## Customization
+## 🌐 Deployment Configuration
 
-### Update Personal Information
+This repository is set up with an automated continuous deployment pipeline. Any pushes to the `main` branch will trigger a [GitHub Actions workflow](.github/workflows/deploy.yml) that builds the project using Vite and automatically publishes the `/dist` directory to **GitHub Pages**.
 
-1. **Contact Information**: Edit `src/components/Contact.jsx` to update email, LinkedIn, and GitHub links
-2. **Experience**: Modify `src/components/Experience.jsx` to add your work history
-3. **Projects**: Update `src/components/Projects.jsx` with your actual projects
-4. **Skills**: Customize `src/components/Skills.jsx` with your technical skills
-5. **About**: Edit `src/components/About.jsx` with your personal story
+## 📫 Contact
 
-### Styling
-
-- Global styles: `src/index.css`
-- Component styles: Each component has its own CSS file in `src/components/`
-- Color scheme: Modify CSS variables in `src/index.css`
-
-## Deployment
-
-This portfolio can be deployed to:
-
-- **Vercel**: Connect your GitHub repo for automatic deployments
-- **Netlify**: Drag and drop the `dist` folder or connect via Git
-- **GitHub Pages**: Use the `gh-pages` package
-- **AWS S3**: Upload the `dist` folder to an S3 bucket
-
-## License
-
-This project is open source and available for personal use.
-
-## Contact
-
-For questions or suggestions, feel free to reach out!
+- **Email**: ahmed0hmimida@gmail.com
+- **LinkedIn**: [Ahmed Hmimida](https://linkedin.com/in/ahmed-hmimida-119518319)
+- **GitHub**: [PeinNotFound](https://github.com/PeinNotFound)
