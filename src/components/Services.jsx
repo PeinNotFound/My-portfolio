@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
-import { 
-  SiReact, 
+import {
+  SiReact,
   SiAndroid,
   SiNodedotjs,
   SiEthereum,
@@ -19,8 +19,8 @@ const Services = () => {
     },
     {
       icon: <FaMobileAlt />,
-      title: 'React Native Apps',
-      description: 'Cross-platform iOS & Android mobile applications with React Native, delivering native performance and shared codebase efficiency.'
+      title: 'Flutter/Kotlin Apps',
+      description: 'Cross-platform iOS & Android mobile applications with Flutter or Kotlin, delivering native performance and shared codebase efficiency.'
     },
     {
       icon: <SiNodedotjs />,
@@ -47,7 +47,7 @@ const Services = () => {
   return (
     <section id="services" className="services">
       <div className="container">
-        <motion.h2 
+        <motion.h2
           className="section-title"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -56,8 +56,8 @@ const Services = () => {
         >
           What I Build
         </motion.h2>
-        
-        <motion.p 
+
+        <motion.p
           className="services-subtitle"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
