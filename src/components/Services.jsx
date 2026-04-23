@@ -38,9 +38,9 @@ const Services = () => {
       description: 'Integrating OpenAI GPT, machine learning models, and intelligent automation solutions into modern web and mobile applications.'
     },
     {
-      icon: <SiGraphql />,
-      title: 'API Development',
-      description: 'RESTful and GraphQL API design and implementation with Node.js, Python, scalable architecture, and comprehensive documentation.'
+      icon: <FaDatabase />,
+      title: 'Backend Dev',
+      description: 'Robust server-side architecture and API design using Laravel, PHP, Express.js, Python, and Django, coupled with expert database management across both SQL and NoSQL.'
     }
   ]
 
